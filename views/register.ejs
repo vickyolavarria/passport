@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form action="/register" method="POST">
+        <input type="email" name="email" placeholder="Email"></input>
+                <input type="password" name="password" placeholder="Password"></input>
+                                <input type="submit"></input>
+        </form>
+</body>
+
+</html>
